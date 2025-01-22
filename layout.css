@@ -57,6 +57,9 @@ font-weight: bold;
     font-size: 1.4rem;
     font-weight: bold;
 }
+.bar{
+    display:none;
+}
 .color1{
     color:orange;
 }
@@ -198,7 +201,7 @@ font-weight: bold;
   gap:2.4rem;
   margin-top: 6rem;
   margin-left: 0;
-  background-image: linear-gradient(white, #FFF4DC), 
+  background-image: linear-gradient(white, #FFF4DC);
   height: 100%; 
   width: 100%; 
   padding-bottom: 9.8rem;
@@ -218,10 +221,12 @@ font-weight: bold;
 }
 .card-image{
     border-radius: 1rem;
+    width: 100%;
 }
 .card-story-title{
     font-size: 1rem;
     font-weight: bold;
+    text-align: center;
 }
 .single-story{
     
@@ -352,20 +357,41 @@ font-weight: bold;
     .school{
         display:none;
     }
+    .logo-img{
+        max-width: 100%;
+    }
 .nav-links{
-    display:block;
+    display:none;
 }
+
 .navbar{
     border-bottom:2px solid #FF900E;
     justify-content:space-between;
     
 }
+.bar{
+    display:inline;
+}
 
-.banner, .card-stories{
+.banner{
     grid-template-columns: 1fr;
     justify-items: center;
     padding:5px 5px;
     gap: 1rem;
+}
+.card-stories{
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    /* padding:5px 5px; */
+    gap: 5px;
+    
+}
+.story{
+    padding-left: 2rem;
+}
+.card-story{
+    width:80%;
 }
 .banner-image{
     grid-row:1;
@@ -389,7 +415,10 @@ font-weight: bold;
     
 }
 .enroll{
-    margin-left: 5rem;
+    margin-left: 4rem;
+}
+.arrow{
+    display:none;
 }
 
 .curriculam-cards{
@@ -406,6 +435,9 @@ font-weight: bold;
     font-size: 10px;
     text-align: center;
 }
+.publish-date1{
+    max-width: 90%;
+}
 .read-more1{
     font-size: 10px;
 }
@@ -418,6 +450,7 @@ font-weight: bold;
 .text-center{
     display:block;
     margin-top: 2px;
+    margin-left: 8rem;
 }
 .footer{
     margin-top: 2rem;
@@ -429,14 +462,15 @@ font-weight: bold;
     justify-items:left;
     padding:5px 5px;
     gap: 1rem;
+    margin-left: 1rem;
 }
 .education{
     padding-left: 1rem;
     
 }
+.about{
+    padding-left: 1rem;
+}
 }
 
   
-
-
-
