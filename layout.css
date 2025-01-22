@@ -25,8 +25,11 @@
 /* nav styling*/
 
 .navbar{
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
 }
 
 .logo{
@@ -85,7 +88,7 @@ font-weight: bold;
    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:30px;
+    gap:2rem;
 }
 
 .title{
@@ -123,13 +126,13 @@ font-weight: bold;
 .curriculam-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:20px;
+    gap:1.25rem;
     margin-top: 6rem;
     
 }
 .curriculam-card{
     border:1px solid rgb(238, 231, 231);
-    border-radius:19px ;
+    border-radius:1.25rem ;
     padding:2rem 2rem;
     text-align: center;
     align-items: center;
@@ -182,17 +185,23 @@ font-weight: bold;
     
     
 }
+.stories{
+    
+    margin-top: 3rem;
+    background-image: url(assets/bg.png);
+    
+}
 .story{
     
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap:40px;
+  gap:2.4rem;
   margin-top: 6rem;
   margin-left: 0;
-  background-image: linear-gradient(white, #ead7b6), 
+  background-image: linear-gradient(white, #FFF4DC), 
   height: 100%; 
   width: 100%; 
-  padding-bottom: 150px;
+  padding-bottom: 9.8rem;
         
     }
 .card-stories{
@@ -202,13 +211,13 @@ font-weight: bold;
 
 }
 .card-story{
-    border:2px rgb(152, 145, 145);
+    border:2px solid rgb(240, 235, 235);
     background-color: #FFFFFF;
-    border-radius: 16px;
+    border-radius: 1rem;
 
 }
 .card-image{
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 .card-story-title{
     font-size: 1rem;
@@ -217,16 +226,18 @@ font-weight: bold;
 .single-story{
     
     background-color: #FFFFFF;
-    border:1px rgb(236, 227, 227);
+    border:2px solid rgb(240, 235, 235);
     border-radius: 1rem;
  
 }
 .story-title{
-    font-size: 24px;
+    font-size: 1.25rem;
     font-weight: bold;
+    background: #FDFEFF;
 }
 .story-description{
     font-size: 1rem;
+    background: #FDFEFF;
 }
 .single-story img {
     display: flex; 
@@ -235,18 +246,18 @@ font-weight: bold;
     height: auto; 
     width:100%;
     border: none;
-    border-radius: 16px;
+    border-radius: 1rem;
   }
   .publish-date1 {
-    width:174px;
-    height:38px;
+    width:10.9rem;
+    height:2.38rem;
     position: relative; 
     bottom: 10px; 
     left: 10px; 
     font-size: 1rem;
     color: white;
     border: none; 
-    border-radius: 48px;
+    border-radius: 3rem;
     padding: 5px 10px; 
    
   }
@@ -270,7 +281,7 @@ font-weight: bold;
 }
 .footer-body{display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:64px;
+    gap:4rem;
     padding-top:4rem;
 }
 .education{
@@ -282,8 +293,8 @@ font-weight: bold;
 }
 
 .logo{
-    width:83px;
-    height:81px;
+    width:5.2rem;
+    height:5rem;
 }
 .logo-title{
     display:flex;
@@ -292,20 +303,20 @@ font-weight: bold;
     margin-bottom: 0;
 }
 .education-title{
-    font-size: 43px;
+    font-size: 2.7rem;
     font-weight: bold;
     color: #FFFFFF;
     
 }
 .education-description{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #FFFFFF;
     margin-top: 0;
     grid-row:2;
 }
 
 .about{
-    font-size: 24px;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #FFFFFF;
     text-align: center;
@@ -317,7 +328,7 @@ font-weight: bold;
     text-align: center;
 }
 .nav-link2{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500px;
     text-decoration: none;
     color: #FFFFFF;
@@ -328,7 +339,7 @@ font-weight: bold;
     gap:4px;
 }
 .touch-des{
-    font-size: 26px;
+    font-size: 1.6rem;
     font-weight: bold;
     color:#FFFFFF;
 }
@@ -354,7 +365,7 @@ font-weight: bold;
     grid-template-columns: 1fr;
     justify-items: center;
     padding:5px 5px;
-    gap: 16px;
+    gap: 1rem;
 }
 .banner-image{
     grid-row:1;
@@ -388,7 +399,7 @@ font-weight: bold;
     gap: 16px;
 }
 .curriculam-title{
-    font-size: 26px;
+    font-size: 1.8rem;
     
 }
 .card-description{
@@ -417,7 +428,7 @@ font-weight: bold;
     grid-template-columns: 1fr;
     justify-items:left;
     padding:5px 5px;
-    gap: 16px;
+    gap: 1rem;
 }
 .education{
     padding-left: 1rem;
